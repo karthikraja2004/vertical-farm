@@ -1,0 +1,108 @@
+body{
+    margin:0;
+    color:white;
+}
+.container{
+    background-color: black;
+    height:800px;
+}
+.name{ 
+    margin-left:50px;
+    margin-top: 50px;
+    font-size: 30px;
+}
+.nav-items{
+    display: inline-flex;
+    padding-left: 550px;
+    margin-top: 50px;
+}
+.nav-items a{
+    padding:10px;
+    list-style: none;
+    text-decoration: none;
+    color:aliceblue;
+}
+.nav-items a:active {
+    color: rgb(140, 146, 137);
+    background-color: transparent;
+ }
+#name i{
+    padding-right: 10px;
+}
+.nav-buttons{
+    display: block;
+    margin-top: 12px;
+    margin-left:70px;
+}
+.nav-buttons a{
+    border: 2px solid white;
+    border-radius: 50px;
+}
+.nav-buttons a:hover{
+    background-color: rgb(209, 224, 207);
+}
+.description{
+    display:inline-block;
+    margin-top: 100px;
+    margin-left: 140px;
+    width:500px;
+}
+.description h1{
+    word-wrap: normal;
+    font-size: 60px;
+}
+.description h1 span{
+    background-color: rgb(222, 225, 133);
+    color:black;
+}
+.content {
+    display:inline-block;
+    position:relative;
+    width:500px;
+    top:100px;
+    right:500px;
+    
+}
+.side-img{
+    display:bloc
+}
+.start-buttons
+{
+    display:inline-block;
+    position: relative;
+    top:150px;
+    right:1000px;
+}
+.start-buttons a{
+    margin-right: 20px;
+    border: 2px solid white;
+    border-radius:45px;
+    padding:10px;
+    text-decoration:none;
+}
+.start-buttons a span{
+    color:white;
+    padding: 5px;
+}
+.start-buttons a:hover{
+    background-color: rgb(222, 225, 133);
+}
+.services{
+    position:relative;
+    top:180px;
+    left:120px;
+    right:120px;
+    display:flex; 
+
+}
+.services .card{
+    padding:0px 0px 0px 0px;
+    border:2px solid white;
+}
+.services .card p {
+padding:0px 0px 0px 0px;
+font-size:20px;
+}
+.services .card{
+
+}
